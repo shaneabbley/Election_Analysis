@@ -1,2 +1,15 @@
 # Election_Analysis
-Bootcamp Module 3
+### Background
+#### We were tasked with analyzing election audit results. That is, we were to determine the winner of an election using voter information including: the ballot id, the county, and the candidate receiving the vote. We analyzed and presented this data in text files using python. Specifically, we were asked to determine the voter turnout by county, the percentage of votes from each county, and the county with the greatest voter turnout.
+### Election Audit Analysis
+#### * We counted a total of 369,711 ballots.
+#### * Counties
+   * Jefferson County had 38,855 ballots for 10.5% of the total votes.
+   * Arapahoe County had 24,801 ballots for 6.7% of the total votes.
+   * Denver County had the most voters. They cast 306,055 ballots for 82.8% of the total votes.
+#### * Candidates
+   * Raymon Anthony Doane received 11,606 votes for 3.1% of the total votes.
+   * Charles Casper Stockham received 85,213 votes for 23.0% of the total votes.
+   * Diana Degette received the most votes! She had 272,892 or 73.8% of the total votes.
+### Discussion
+#### As seen in the results above, this script is ready to be utilized to simplify the audits of other elections. In order to make this happen, I would make a few small modifications. First, I would allow further analysis by determining the ballots cast for candidates in each county. Second, I would decrease the number of looping statements to make this script run even faster for larger data sets. At the moment there are multiple loops that can most likely be simplified or optimized.
