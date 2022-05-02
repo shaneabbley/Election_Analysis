@@ -2,7 +2,7 @@
 ### Background
 #### We were tasked with analyzing election audit results. That is, we were to determine the winner of an election using voter information including: the ballot id, the county, and the candidate receiving the vote. We analyzed and presented this data in text files using python. Specifically, we were asked to determine the voter turnout by county, the percentage of votes from each county, and the county with the greatest voter turnout.
 ### Election Audit Analysis
-#### * We counted a total of 369,711 ballots in three counties for three candidates.
+#### We counted a total of 369,711 ballots in three counties for three candidates.
 #### * Counties
    * Jefferson County had 38,855 ballots for 10.5% of the total votes.
    * Arapahoe County had 24,801 ballots for 6.7% of the total votes.
