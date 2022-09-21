@@ -1,19 +1,25 @@
 # Add our dependencies.
 import csv
 import os
+
 # Assign a variable to load a file from a path.
 file_to_load = os.path.join("Resources", "election_results.csv")
+
 # Assign a variable to save the file to a path.
-file_to_save = os.path.join("analysis", "election_analysis.txt")
+file_to_save = os.path.join("results", "election_analysis.txt")
+
 # Initialize a total vote counter.
 total_votes = 0
+
 # Candidate options and candidate votes.
 candidate_options = []
 candidate_votes = {}
+
 # Track the winning candidate, vote count, and percentage.
 winning_candidate = ""
 winning_count = 0
 winning_percentage = 0
+
 # Open the election results and read the file.
 with open(file_to_load) as election_data:
     file_reader = csv.reader(election_data)
@@ -25,8 +31,8 @@ with open(file_to_load) as election_data:
         total_votes += 1
         # Get the candidate name from each row.
         candidate_name = row[2]
-        # If the candidate does not match any existing candidate, add the
-        # the candidate list.
+        # If the candidate does not match any existing candidate, then add the
+        # candidate to the list.
         if candidate_name not in candidate_options:
             # Add the candidate name to the candidate list.
             candidate_options.append(candidate_name)
