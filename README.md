@@ -4,11 +4,11 @@
 ### Election Audit Analysis
 ![votes](https://github.com/shaneabbley/Election_Analysis/blob/main/ElectionResults.png)
 #### We counted a total of 369,711 ballots in three counties for three candidates.
-#### * Counties
+#### Counties
    * Jefferson County had 38,855 ballots for 10.5% of the total votes.
    * Arapahoe County had 24,801 ballots for 6.7% of the total votes.
    * Denver County had the most voters. They cast 306,055 ballots for 82.8% of the total votes.
-#### * Candidates
+#### Candidates
    * Raymon Anthony Doane received 11,606 votes for 3.1% of the total votes.
    * Charles Casper Stockham received 85,213 votes for 23.0% of the total votes.
    * Diana Degette received the most votes! She had 272,892 or 73.8% of the total votes.
