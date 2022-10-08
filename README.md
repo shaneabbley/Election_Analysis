@@ -1,6 +1,6 @@
 # Election_Analysis
 ### Background
-#### We were tasked with analyzing election audit results. That is, we were to determine the winner of an election using voter information including: the ballot id, the county, and the candidate receiving the vote. We analyzed and presented this data in text files using python. Specifically, we were asked to determine the voter turnout by county, the percentage of votes from each county, and the county with the greatest voter turnout.
+#### We were tasked with analyzing election audit results. Specifically, we were to determine the winner of an election using voter information including: the ballot id, the county, and the candidate receiving the vote. We analyzed and presented this data in text files using python. We also determined the voter turnout by county, the percentage of votes from each county, the county with the greatest voter turnout, and we created a visualization showing the votes per candidate per county.
 ### Election Audit Analysis
 #### We counted a total of 369,711 ballots in three counties for three candidates.
 #### * Counties
@@ -12,4 +12,4 @@
    * Charles Casper Stockham received 85,213 votes for 23.0% of the total votes.
    * Diana Degette received the most votes! She had 272,892 or 73.8% of the total votes.
 ### Discussion
-#### As seen in the results above, this script is ready to be utilized to simplify the audits of other elections. In order to make this happen, I would make a few small modifications. First, I would allow further analysis by determining the ballots cast for candidates in each county. Second, I would decrease the number of looping statements to make this script run even faster for larger data sets. At the moment there are multiple loops that can most likely be simplified or optimized.
+#### As seen in the results above, this script is ready to be utilized to simplify the audits of other elections. In order to make this happen, I would make a few small modifications. First, I would decrease the number of looping statements to make this script run even faster for larger data sets. At the moment there are multiple loops that can most likely be simplified or optimized. I would also attempt to make the visualization generate from any desired election data. At the moment the visualization only works for this specific data.
