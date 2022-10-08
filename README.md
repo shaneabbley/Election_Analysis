@@ -2,6 +2,7 @@
 ### Background
 #### We were tasked with analyzing election audit results. Specifically, we were to determine the winner of an election using voter information including: the ballot id, the county, and the candidate receiving the vote. We analyzed and presented this data in text files using python. We also determined the voter turnout by county, the percentage of votes from each county, the county with the greatest voter turnout, and we created a visualization showing the votes per candidate per county.
 ### Election Audit Analysis
+![votes](https://github.com/shaneabbley/Election_Analysis/blob/main/ElectionResults.png)
 #### We counted a total of 369,711 ballots in three counties for three candidates.
 #### * Counties
    * Jefferson County had 38,855 ballots for 10.5% of the total votes.
